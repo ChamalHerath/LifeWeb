@@ -314,7 +314,7 @@
 
     <div class="container d-flex justify-content-center mt-5 pt-5">
        <a style="text-decoration: none !important;" href="/nbrt"><button class="btn btn-primary">
-        NBRT Members <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        MDRT Members <i class="fa fa-hand-o-right" aria-hidden="true"></i>
     </button></a>
     </div>
 </section><br><br>

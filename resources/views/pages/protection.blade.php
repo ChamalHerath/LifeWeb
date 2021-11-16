@@ -1,6 +1,6 @@
 @extends('pages.layout')
 
-@section('title', 'Education | ')
+@section('title', 'Protection | ')
 
 @section('content')
 
@@ -24,12 +24,17 @@
 <section id="about" class="">
     <div class="container">
         <div class="section-header">
-            <h2>Protection</h2>
+            <h2>Future Protector</h2>
         </div>
         <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4"><h4 style="color: red; text-transform: uppercase; font-size: 20px">Oops!!! Under Construction...</h4></div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-img">
+                <img src="assets/img//protector1.png" alt="">
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-img">
+                <img src="assets/img//protector2.png" alt="">
+            </div>
+            
         </div>
     </div>
 </section><br>
