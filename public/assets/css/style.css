@@ -2740,3 +2740,24 @@ h6 {
     letter-spacing: 1px;
 }
 
+/* MDRT Section */
+#mdrt h2 {
+    color: #f48434;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 33px;
+    font-family: "Raleway", sans-serif;
+}
+
+#mdrt h4 {
+    color: #f48434;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+#mdrt img {
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+}

@@ -4,24 +4,6 @@
 
 @section('content')
 
-
-<!-- <section id="hero" class="d-flex align-items-center">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up" data-aos-delay="200">
-                <h1>Contact Us</h1>
-                <h6> Home > Contact Us</h6>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                {{-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-                --}} </div>
-        </div>
-    </div>
-
-</section> -->
-
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
@@ -38,7 +20,7 @@
 <!-- End Breadcrumbs -->
 
 <!-- ======= Our Team Section ======= -->
-<section id="team" class="team section-bg mt-4 pt-4">
+<section id="mdrt" class="team section-bg mt-4 pt-4">
     <div class="container">
         <div class="section-header">
             <h2 style="color: #a8cf45">MDRT Members</h2>
@@ -48,7 +30,7 @@
             <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up">
                     <div class="member-img mt-4">
-                        <img src="assets/img/mdrt.png" class="img" alt="">
+                        <img src="assets/img/mdrt/sinthujan.jpg" class="img" alt="">
                     </div>
                     <div class="member-info">
                         <h4>Mr. Thevarasa Sinthujan</h4>
@@ -160,7 +142,7 @@
             <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up">
                     <div class="member-img mt-4">
-                        <img src="assets/img/mdrt.png" class="img" alt="">
+                        <img src="assets/img/mdrt/sugeeban.jpg" class="img" alt="">
                     </div>
                     <div class="member-info">
                         <h4>Mr. A Sugeeban</h4>
@@ -309,6 +291,34 @@
                             since inception of the company. Within a shorter period of time, through her immense
                             dedication she was able make the success particularly in a competitive business environment
                             exist in kurunegala area
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up">
+                    <div class="member-img mt-4">
+                        <img src="assets/img/mdrt.png" class="img" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Ms. Inthika Sivanesan</h4>
+                        <span style="color: black; text-transform: uppercase;">Jaffna Metro Branch</span><br>
+                        <p>Ms. Inthika, was the Fifth Financial Advisor in 2021 and the <b
+                                style="color: blue;">Eleventh</b> in the array of qualifiers to be successful in
+                            attaining the MDRT status in the history of COOPLIFE Insurance.
+
+                            She was able to qualify based on the standards for excellence made during the year 2021 by
+                            producing first and first year premium requirement in life insurance.
+
+                            Ms. Inthika joined with COOPLIFE on 1st of July 2020 and started her journey for excellence
+                            at our Jaffna branch, where she had been trained up with all aspects of life insurance
+                            business. However, with the emergence of newly established “Jaffna Metro” branch, she was
+                            asked to move with her leader and subsequently that has been given freedom and opportunity
+                            to move the way up to explore the business towards excellence.
+                            Within a shorter period of time, through her immense dedication and determination, she was
+                            able to earn her success.
 
                         </p>
                     </div>
