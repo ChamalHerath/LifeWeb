@@ -13,7 +13,7 @@
     <section id="about" class="">
         <div class="container">
             <div class="section-header">
-                <h2>About Company</h2>
+                <h2>About COOPLIFE</h2>
             </div>
             <div class="row">
                 <div class="col-lg-6 about-img align-items-center">
@@ -21,8 +21,6 @@
                 </div>
 
                 <div class="col-lg-6 content">
-                    <h2>HI, WE ARE COOPLIFE INSURANCE,</h2>
-
                     <ul>
                         <li class="text-justify"><i class="fa fa-check-circle"></i> Facilitating you with the utmost freedom to live your
                             life to its full potential, we at COOPLIFE Insurance Limited believe in the sentiment that
@@ -55,7 +53,7 @@
     <!-- End About Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us">
+    <section id="why-us" class="snow-bg">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h2>Why Choose Us?</h2>
@@ -104,33 +102,11 @@
 
             </div>
 
-            <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">50+</span>
-                    <p>Branches Across Sri Lanka</p>
-                </div>
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">100+</span>
-                    <p>Affiliated Service Centers</p>
-                </div>
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">500+</span>
-                    <p>Specialized Professional Sales Force</p>
-                </div>
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up">250+</span>
-                    <p>Permanent Employees</p>
-                </div>
-
-            </div>
-
         </div>
     </section>
     <!-- End Why Us Section -->
+
+    @include('pages.counter')
 
     <!-- ======= Services Section ======= -->
 

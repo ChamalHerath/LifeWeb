@@ -11,7 +11,9 @@
         <li><a href="/about#faq">Our Commitments</a></li>
         <li><a href="/about#culture">Our Culture</a></li>
         <li><a href="/about#values">Our Values</a></li>
-        <li><a href="/leaders">Our Leadership</a></li>
+        <li><a href="/directors">Board of Directors</a></li>
+        <li><a href="/managers">Cooperate Managers</a></li>
+        <li><a href="/leaders">Management Team</a></li>
         <li><a href="/rewards">Rewards and Recognitions</a></li>
       </ul>
     </li>
@@ -24,6 +26,7 @@
         <li><a href="/protection">Protection</a></li>
       </ul>
     </li>
+    <li><a class="nav-link scrollto" href="/documents">Documents</a></li>
     <li><a class="nav-link scrollto" href="/careers">Careers</a></li>
     <li><a class="nav-link scrollto" href="/news  ">News</a></li>
     <li><a class="nav-link scrollto" href="/contact">Contact Us</a></li>

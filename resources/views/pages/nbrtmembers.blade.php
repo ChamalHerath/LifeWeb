@@ -118,7 +118,7 @@
             <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up">
                     <div class="member-img mt-4">
-                        <img src="assets/img/mdrt.png" class="img" alt="">
+                        <img src="assets/img/mdrt/balamanokar.jpg" class="img" alt="">
                     </div>
                     <div class="member-info">
                         <h4>Mr. P Balamanokar</h4>
@@ -173,7 +173,7 @@
             <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up">
                     <div class="member-img mt-4">
-                        <img src="assets/img/mdrt.png" class="img" alt="">
+                        <img src="assets/img/mdrt/jegatheepan.jpg" class="img" alt="">
                     </div>
                     <div class="member-info">
                         <h4>Mr. R Jegatheepan</h4>

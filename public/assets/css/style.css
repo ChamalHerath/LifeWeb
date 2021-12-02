@@ -2761,3 +2761,71 @@ h6 {
     height: 160px;
     border-radius: 5px;
 }
+
+/* Chrismas Snow Effect */
+
+.snow-bg {
+    position: relative;
+}
+
+.snow-bg:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-image: url("https://library.elementor.com/resources/christmas-snow-effect/s1.png"),
+        url("https://library.elementor.com/resources/christmas-snow-effect/s2.png"),
+        url("https://library.elementor.com/resources/christmas-snow-effect/s3.png");
+    animation: rgb(255, 255, 255) 10s linear infinite;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Annual Report
+--------------------------------------------------------------*/
+.documents .btn-read-more {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 220px;
+    display: inline-block;
+    padding: 3px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+    border-radius: 10px;
+    line-height: 1;
+    color: #1bbd36;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 3px;
+    border: 2px solid #1bbd36;
+}
+
+.documents .btn-read-more:hover {
+    background: linear-gradient(to right, #2cc445, #9ee4aa);
+    color: #fff;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.documents .content .btn-read-more i:hover {
+    color: #fff !important;
+    text-decoration: none;
+}

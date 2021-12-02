@@ -9,7 +9,7 @@ Route::view('/signup', 'pages.signin');
 
 Route::view('/contact', 'pages.contact');
 
-Route::view('/about', 'pages.about');
+Route::view('/about', 'pages.about.about');
 
 Route::view('/solutions', 'pages.solutions');
 
@@ -19,9 +19,13 @@ Route::view('/careers', 'pages.careers');
 
 Route::view('/sisusetha', 'pages.sisusetha');
 
-Route::view('/leaders', 'pages.leadership');
+Route::view('/leaders', 'pages.about.leadership');
 
-Route::view('/rewards', 'pages.reward');
+Route::view('/directors', 'pages.about.directors');
+
+Route::view('/managers', 'pages.about.managers');
+
+Route::view('/rewards', 'pages.about.reward');
 
 Route::view('/gallery', 'pages.gallery');
 
@@ -39,8 +43,10 @@ Route::view('/education', 'pages.education');
 
 Route::view('/loader', 'landing');
 
-Route::view('/nbrt', 'pages.nbrtmembers');
+Route::view('/mbrt', 'pages.nbrtmembers');
 
 Route::view('/invesment', 'pages.invesment');
 
 Route::view('/protection', 'pages.protection');
+
+Route::view('/documents', 'pages.document');

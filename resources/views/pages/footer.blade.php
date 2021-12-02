@@ -1,5 +1,5 @@
 <!-- ======= Footer ======= -->
-<footer id="footer">
+<footer id="footer" class="snow-bg">
     <div class="footer-top">
         <div class="container">
             <div class="row">
