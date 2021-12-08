@@ -65,7 +65,7 @@
                 title: '',
                 content: `
     <div class="promo-box-container">
-    <img src="assets/img/special.jpg" alt="">
+        <img src="assets/img/special.jpg" alt="">
     </div>
             `,
                 type: 'dark',

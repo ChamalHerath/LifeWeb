@@ -244,14 +244,6 @@
         items: 1,
     });
 
-    /*-----------------------------
-  08. CounterUp
------------------------------*/
-    // $(".count").counterUp({
-    //     delay: 60,
-    //     time: 3000,
-    // });
-
     $(document).ready(function () {
         var test = $(window).scrollTop();
 
