@@ -50,3 +50,5 @@ Route::view('/invesment', 'pages.invesment');
 Route::view('/protection', 'pages.protection');
 
 Route::view('/documents', 'pages.document');
+
+Route::view('/pay', 'pages.easypay');

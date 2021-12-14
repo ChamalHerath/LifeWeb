@@ -108,7 +108,7 @@
                     <div class="counter-icon">
                         <i class="fa fa-globe"></i>
                     </div>
-                    <span class="counter-value">50</span>
+                    <span class="counter-value">57</span>
                     <h3>Branches</h3>
                 </div>
             </div>

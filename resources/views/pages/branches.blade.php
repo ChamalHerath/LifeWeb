@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <style type="text/css">
@@ -21,7 +24,7 @@
         }
 
         #map-canvas {
-            height: 100%;
+            height: 800px;
         }
     </style>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true">
@@ -104,71 +107,8 @@
 </head>
 
 <body>
-<!-- ======= Breadcrumbs ======= -->
-<section id="breadcrumbs" class="breadcrumbs">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <h2>Branch Network</h2>
-            <ol>
-                <li><a href="/">Home</a></li>
-                <li>Branch Network</li>
-            </ol>
-        </div>
-    </div>
-</section>
-<!-- End Breadcrumbs -->
 
-<!-- ======= About Section ======= -->
-<section id="about" class="">
-    <div class="container">
-        <div class="section-header">
-            <h2>Branch Network</h2>
-        </div>
-    </div>
-</section>
-<!-- End About Section -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Branch Name</th>
-                            <th scope="col">Address</th>
-                            <th scope="col">Tele No.</th>
-                            <th scope="col">Fax No.</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-6">
-                <div class="wrap">
-                    <div id="map-canvas"></div>
-                </div>
-            </div>
-        </div>
-    </div><br><br>
+    
 
 </body>
 
