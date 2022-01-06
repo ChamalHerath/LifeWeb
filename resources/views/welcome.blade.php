@@ -17,7 +17,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 about-img align-items-center">
-                    <img src="assets/img/about-img.png" alt="">
+                    <img src="assets/img/png/5.png" alt="">
                 </div>
 
                 <div class="col-lg-6 content">
@@ -359,7 +359,7 @@
     </div>
  --}}
 
-@include('landing')
+{{-- @include('landing') --}}
 
 </main><!-- End #main -->
 

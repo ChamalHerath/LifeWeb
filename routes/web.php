@@ -28,7 +28,7 @@ Route::view('/managers', 'pages.about.managers');
 Route::view('/rewards', 'pages.about.reward');
 
 Route::view('/gallery', 'pages.gallery');
-
+ 
 Route::view('/branchn', 'pages.branchnetwork');
 
 Route::view('/news', 'pages.news');

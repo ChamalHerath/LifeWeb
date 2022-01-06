@@ -32,13 +32,15 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-3 col-md-3"></div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-8 col-md-8 col-sm-12">
             <div class="wrap">
                 <div id="map-canvas"></div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3"></div>
+        <div class="col-lg-4 col-md-4 text-left"><br><br>
+            <h3 style="text-transform: uppercase; font-weight: bold; font-family: Arial, Helvetica, sans-serif">Branch :</h3>
+            <h4 style="text-transform: uppercase; font-weight: bold; font-family: Arial, Helvetica, sans-serif">TP :</h4>
+        </div>
     </div>
 </div><br><br>
 
