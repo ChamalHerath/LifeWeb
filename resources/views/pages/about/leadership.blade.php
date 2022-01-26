@@ -124,7 +124,7 @@
                     </div>
                     <div class="member-info">
                         <h4>Mr. S. G. Rathnapala</h4>
-                        <span>Assistant General Manager</span>
+                        <span>Senior Assistant General Manager</span>
                     </div>
                 </div>
             </div>
@@ -232,7 +232,7 @@
                     </div>
                     <div class="member-info">
                         <h4>Mr. R. M. K. Rajakaruna</h4>
-                        <span>Regional Manger - Anuradhapura</span>
+                        <span>Senior Regional Manger - Anuradhapura</span>
                     </div>
                 </div>
             </div>
@@ -250,12 +250,12 @@
                     </div>
                     <div class="member-info">
                         <h4>Mr. A. Ranjith</h4>
-                        <span>Regional Manger - North</span>
+                        <span>Zonal Manger - North</span>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            {{-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up">
                     <div class="member-img">
                         <img src="assets/img/team/2.jpg" class="img" alt="">
@@ -271,7 +271,7 @@
                         <span>Regional Manger - Colombo</span>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up" data-aos-delay="100">

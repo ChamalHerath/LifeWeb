@@ -9,7 +9,7 @@
                     <p>
                     <address><strong>Cooplife Insurance Limited,</strong><br>
                         "Coop House",<br> 455, Galle Road,<br> Colombo 03</address>
-                    <strong>Phone:</strong> +94 11 2556 567<br><br>
+                    <strong>Phone:</strong> +94 11 2556 567 - 70<br><br>
                     <strong>Email:</strong> info.life@coopinsu.com<br>
                     </p>
 

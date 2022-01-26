@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Portal</title>
+    <title>Member Login</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
@@ -246,7 +246,7 @@
         <div class="login-content">
             <form>
                 <img src="assets/img/avatar.png">
-                <h2 class="title">Welcome</h2>
+                <h2 class="title">Welcome Members</h2>
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>

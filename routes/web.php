@@ -5,7 +5,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
-Route::view('/signup', 'pages.signin');
+Route::view('/membersignin', 'pages.membersignin');
+
+Route::view('/customersignin', 'pages.customersignin');
 
 Route::view('/contact', 'pages.contact');
 
@@ -52,3 +54,10 @@ Route::view('/protection', 'pages.protection');
 Route::view('/documents', 'pages.document');
 
 Route::view('/pay', 'pages.easypay');
+
+Route::view('/users', 'pages.logcategories');
+
+// Mail Service
+Route::get('/email', [App\Http\Controllers\EmailController::class, 'create']);
+
+Route::post('/email', [App\Http\Controllers\EmailController::class, 'sendEmail'])->name('send.email');
