@@ -88,6 +88,33 @@ h6 {
     opacity: 1;
 }
 
+/* Back-to-Whatsapp */
+.back-to-whatsapp {
+    position: fixed;
+    right: 15px;
+    bottom: 235px;
+    z-index: 99999;
+}
+
+.back-to-whatsapp i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #25d366;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #fff;
+    color: #25d366;
+    transition: all 0.4s;
+}
+
+.back-to-whatsapp i:hover {
+    background: #25d366;
+    color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Back-to-fb Button
 --------------------------------------------------------------*/
@@ -181,7 +208,7 @@ h6 {
 .back-to-dark {
     position: fixed;
     right: 15px;
-    bottom: 235px;
+    bottom: 290px;
     z-index: 99999;
 }
 

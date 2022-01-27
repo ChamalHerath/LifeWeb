@@ -29,11 +29,10 @@
         <div class="row" id="cv">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="100">
                 <h2>JOIN With us</h2>
-                <h4>Co-operative Life Insurance Family
-                    It is not just a job - It becomes your passion</h4>
-                <p>Cooperative Life continues to recruit young, talented and driven individuals who are mentored,
-                    trained and fostered into our team to support the core values and business principles of the
-                    Company in an integrity based, performance driven, service oriented culture and become our
+                <h4>Being with CoopLife Insurance Family is not just a job - But It's our passion</h4>
+                <p>CoopLife Insurance continues to recruit young, energitic, talented and performance driven individuals(Male & Female) who are mentored,
+                    trained and fostered into our synergytic team to support the core values and business principles of the
+                    Company in an integrity manner, performance driven, results oriented culture and then develop to become our
                     future leaders.</p><br>
                 <!-- <p>Need admin level access to add Career opportunities.</p> -->
 

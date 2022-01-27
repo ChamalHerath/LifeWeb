@@ -49,9 +49,10 @@
 </footer>
 <!-- End  Footer -->
 
-<a href="" class="back-to-fb"><i class="fa fa-facebook"></i></a>
+<a href="https://www.facebook.com/cooplifeinsu/" class="back-to-fb" target="_blank"><i class="fa fa-facebook"></i></a>
 <a href="" class="back-to-link" style=" z-index:20 !important;"><i class="fa fa-linkedin"></i></a>
-<a href="" class="back-to-utube"><i class="fa fa-youtube-play"></i></a>
+<a href="https://wa.me/+94702149679" target="_blank" class="back-to-whatsapp" style=" z-index:20 !important;"><i class="fa fa-whatsapp"></i></a>
+<a href="https://www.youtube.com/channel/UCYP4VO2ZrUEG9BKQQMD2fgg" class="back-to-utube" target="_blank"><i class="fa fa-youtube-play"></i></a>
 <a href="#!" class="back-to-dark" id="dark-mode" title="Click to switch to dark mode">
     <i class="fa fa-moon-o"></i></a>
 
@@ -75,7 +76,7 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    
+
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

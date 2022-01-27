@@ -13,6 +13,7 @@
         <li><a href="/about#values">Our Values</a></li>
         <li><a href="/directors">Board of Directors</a></li>
         <li><a href="/leaders">Our Leadership</a></li>
+        <li><a href="/mbrt">MDRT Members</a></li>
         <li><a href="/rewards">Rewards and Recognitions</a></li>
       </ul>
     </li>

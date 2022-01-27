@@ -312,11 +312,6 @@
         </div>
     </div>
 
-    <div class="container d-flex justify-content-center mt-5 pt-5">
-       <a style="text-decoration: none !important;" href="/mbrt"><button class="btn btn-primary">
-        MDRT Members <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-    </button></a>
-    </div>
 </section><br><br>
 <!-- End Our Team Section -->
 
