@@ -7,19 +7,19 @@
 
     <!-- <section id="hero" class="d-flex align-items-center">
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                            data-aos="fade-up" data-aos-delay="200">
-                            <h1>Contact Us</h1>
-                            <h6> Home > Contact Us</h6>
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                            {{-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> --}} </div>
-                    </div>
-                </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                                        data-aos="fade-up" data-aos-delay="200">
+                                        <h1>Contact Us</h1>
+                                        <h6> Home > Contact Us</h6>
+                                    </div>
+                                    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                                        {{-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> --}} </div>
+                                </div>
+                            </div>
 
-            </section> -->
+                        </section> -->
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -93,6 +93,7 @@
                     sequi delectus voluptates tenetur voluptatem veritatis?</p>
             </div>
 
+            {{-- Feedback Section --}}
             <div class="form">
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
@@ -101,8 +102,7 @@
                                 required>
                         </div>
                         <div class="form-group col-md-6 mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="form-group mt-3">

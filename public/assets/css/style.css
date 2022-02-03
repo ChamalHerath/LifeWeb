@@ -1945,6 +1945,11 @@ h6 {
     height: 200px;
 }
 
+#news img {
+    width: 300px;
+    height: 300px;
+}
+
 #about button[type="submit"] {
     background: #aecb46;
     border: 0;
