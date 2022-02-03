@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="col-lg-8 col-md-6">
-                    <ul>
+                    <ul style="list-style-type: square">
                         <li>Colombo, Sri Lanka, January 10th, 2022: COOPLIFE Insurance makes its history with an all-new
                             record of Million Dollar Round Table (MDRT) qualifiers to achieve with the first ever Court of
                             the Table (COT) achiever in its history of 23 years, 11 MDRT including 01 COT qualifier for the
