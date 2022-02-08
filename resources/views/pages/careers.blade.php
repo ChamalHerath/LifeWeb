@@ -19,6 +19,64 @@
     </section>
     <!-- End Breadcrumbs -->
 
+    <!-- =======  F.A.Q Section ======= -->
+    <section id="faq">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Available Opportunities</h2>
+            </div>
+
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-9">
+
+                    <ul class="faq-list">
+
+                        <li>
+                            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Branch Managers / Branch
+                                OIC's / Sales Managers - Life Insurance <i class="bi bi-chevron-down icon-show"></i><i
+                                    class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                                <img class="img-fluid" src="assets/img/vacancy/vacancy1.jpg" alt="">
+                            </div>
+                        </li>
+
+                        {{-- <li>
+                            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Shareholders <i
+                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                                <img class="img-fluid" src="assets/img/vacancy/vacancy1.jpg" alt="">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Staff <i
+                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                                <img class="img-fluid" src="assets/img/vacancy/vacancy1.jpg" alt="">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Regulatory Commission <i
+                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                                <img class="img-fluid" src="assets/img/vacancy/vacancy1.jpg" alt="">
+                            </div>
+                        </li> --}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End  F.A.Q Section -->
+
 
     <!-- End Hero -->
     <section id="team" class="team section-bg pt-4 mt-4">
@@ -43,16 +101,17 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="" data-aos="fade-left" data-aos-delay="100">
                         <form action="">
-                            <input type="text" class="form-control" id="exampleInputName" placeholder="Name" required><br>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                            <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Name"
                                 required><br>
-                            <input type="tel" class="form-control" id="exampleInputPhone" placeholder="Your Phone Number"
-                                required><br>
-                            <input type="text" class="form-control" id="exampleNIC" placeholder="NIC / Passport ID"
-                                required><br>
-                            <textarea class="form-control" placeholder="Description" id="" cols="65"
-                                rows="7"></textarea><br><label for="myfile"><i class="fa fa-paperclip"
-                                    aria-hidden="true"></i> Upload your CV :</label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="Email" required><br>
+                            <input type="tel" name="tel" class="form-control" id="exampleInputPhone"
+                                placeholder="Your Phone Number" required><br>
+                            <input type="text" name="subject" class="form-control" id="exampleSubject"
+                                placeholder="Subject" required><br>
+                            <textarea class="form-control" name="description" placeholder="Description"
+                                id="exampleDescription" cols="65" rows="7"></textarea><br><label for="myfile"><i
+                                    class="fa fa-paperclip" aria-hidden="true"></i> Upload your CV :</label>
                             <input type="file" id="myfile" name="myfile" required><br><br>
                             <button type="submit" class="btn-read-more">Submit</button>
                         </form>
