@@ -25,10 +25,10 @@
             </div>
             <div class="row">
                 <div class="text-center col-lg-6 col-md-6 col-sm-12">
-                    <a href="/membersignin"><button class="btn btn-success">Members Login</button></a>
+                    <a href="/member"><button class="btn btn-success">Members Login</button></a>
                 </div>
                 <div class="text-center col-lg-6 col-md-6 col-sm-12">
-                    <a href="/customersignin"><button class="btn btn-success">Customer Login</button></a>
+                    <a href="/customer"><button class="btn btn-success">Customer Login</button></a>
                 </div>
             </div>
         </div>

@@ -100,19 +100,21 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="" data-aos="fade-left" data-aos-delay="100">
-                        <form action="">
+                        <form action="carrers" method="POST">
+                            @csrf
+
                             <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Name"
                                 required><br>
                             <input type="email" name="email" class="form-control" id="exampleInputEmail1"
                                 placeholder="Email" required><br>
                             <input type="tel" name="tel" class="form-control" id="exampleInputPhone"
-                                placeholder="Your Phone Number" required><br>
+                                placeholder="Phone Number" required><br>
                             <input type="text" name="subject" class="form-control" id="exampleSubject"
                                 placeholder="Subject" required><br>
                             <textarea class="form-control" name="description" placeholder="Description"
                                 id="exampleDescription" cols="65" rows="7"></textarea><br><label for="myfile"><i
                                     class="fa fa-paperclip" aria-hidden="true"></i> Upload your CV :</label>
-                            <input type="file" id="myfile" name="myfile" required><br><br>
+                            <input type="file" id="cv" name="cv" required><br><br>
                             <button type="submit" class="btn-read-more">Submit</button>
                         </form>
                     </div>
