@@ -11,13 +11,13 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
-class UserController extends Controller
+class CustomerController extends Controller
 {
 
     // -------------------- [ user registration view ] -------------
     public function index()
     {
-        return view('registration');
+        return view('pages.login.registration');
     }
 
     // --------------------- [ Register user ] ----------------------
@@ -29,7 +29,7 @@ class UserController extends Controller
             'first_name'        =>      'required',
             'last_name'         =>      'required',
             'email'             =>      'required|email',
-            'password'          =>      'required|min:6',
+            'password'          =>      'required|min:6|max:10',
             'confirm_password'  =>      'required|same:password',
             'phone'             =>      'required|max:10'
         ]);
@@ -94,7 +94,7 @@ class UserController extends Controller
 
         // check if user logged in
         if (Auth::check()) {
-            return view('dashboard');
+            return view('pages.login.dashboard');
         }
 
         return redirect::to("user-login")->withSuccess('Oopps! You do not have access');
