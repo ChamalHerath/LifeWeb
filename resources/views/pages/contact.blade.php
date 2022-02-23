@@ -4,23 +4,6 @@
 
 @section('content')
 
-
-    <!-- <section id="hero" class="d-flex align-items-center">
-
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                                            data-aos="fade-up" data-aos-delay="200">
-                                            <h1>Contact Us</h1>
-                                            <h6> Home > Contact Us</h6>
-                                        </div>
-                                        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                                            {{-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> --}} </div>
-                                    </div>
-                                </div>
-
-                            </section> -->
-
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
@@ -89,11 +72,16 @@
 
             <div class="section-header pt-4 mt-4">
                 <h2>Testimonials</h2>
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis fugit at facilis provident-->
+                <!--    sequi delectus voluptates tenetur voluptatem veritatis?</p>-->
             </div>
+
+
 
             {{-- Feedback Section --}}
             <div class="form">
-                <form action="" method="post" role="form" class="php-email-form">
+                {{ csrf_field() }}
+                <form action="{{ url('sendemail/send') }}" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="form-group col-md-6">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -104,18 +92,23 @@
                         </div>
                     </div>
                     <div class="form-group mt-3">
+                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone Number"
+                            required>
+                    </div>
+                    <div class="form-group mt-3">
                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
                             required>
                     </div>
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="content" rows="5" placeholder="Message" required></textarea>
-                    </div>
-                    <div class="my-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div><br>
+                    {{-- <div class="my-3">
                         <div class="loading">Loading</div>
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Feedback</button></div>
+                    </div> --}}
+                    <div class="text-center"><button class="btn btn-success" name="send" type="submit">Send
+                            Feedback</button></div>
                 </form>
             </div>
 
