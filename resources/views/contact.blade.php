@@ -77,11 +77,26 @@
             </div>
 
 
+            @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            @if ($message = Session::get('success'))
+                <div class="alert alert-success alert-block">
+                    <strong>{{ $message }}</strong>
+                </div>
+            @endif
+
 
             {{-- Feedback Section --}}
             <div class="form">
-                {{ csrf_field() }}
-                <form action="{{ url('sendemail/send') }}" method="post" role="form" class="php-email-form">
+                <form method="post" action="{{ url('contact/send') }}">
+                    @csrf
                     <div class="row">
                         <div class="form-group col-md-6">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -92,21 +107,12 @@
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone Number"
-                            required>
-                    </div>
-                    <div class="form-group mt-3">
                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
                             required>
                     </div>
                     <div class="form-group mt-3">
                         <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                     </div><br>
-                    {{-- <div class="my-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div> --}}
                     <div class="text-center"><button class="btn btn-success" name="send" type="submit">Send
                             Feedback</button></div>
                 </form>

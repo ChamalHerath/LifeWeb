@@ -3,11 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CareerController;
 use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\SendEmailController;
 
 
 Route::view('/', 'welcome');
-
-Route::view('/contact', 'pages.contact');
 
 Route::view('/about', 'pages.about.about');
 
@@ -80,3 +79,9 @@ Route::post('/login', [CustomerController::class, 'userPostLogin']);
 Route::get('/dashboard', [CustomerController::class, 'dashboard']);
 
 Route::get('/logout', [CustomerController::class, 'logout']);
+
+
+// Email
+Route::get('/contact', [SendEmailController::class, 'index']);
+
+Route::post('/contact/send', [SendEmailController::class, 'send']);
