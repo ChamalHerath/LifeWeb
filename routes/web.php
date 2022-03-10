@@ -32,6 +32,8 @@ Route::view('/news', 'pages.news');
 
 Route::view('/health', 'pages.health');
 
+Route::view('/help', 'pages.helpsupport');
+
 Route::view('/fire', 'pages.fire');
 
 Route::view('/retirement', 'pages.retirement');
@@ -49,6 +51,10 @@ Route::view('/protection', 'pages.protection');
 Route::view('/documents', 'pages.document');
 
 Route::view('/pay', 'pages.easypay');
+
+Route::view('/complains', 'pages.complains');
+
+Route::view('/procedure', 'pages.complainprocedure');
 
 Route::view('/users', 'pages.login.logcategories');
 

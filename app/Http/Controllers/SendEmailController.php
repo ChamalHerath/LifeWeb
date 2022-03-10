@@ -29,7 +29,7 @@ class SendEmailController extends Controller
             'message'   =>   $request->message
         );
 
-        Mail::to('ravindu.d@coopinsu.com')->send(new SendMail($data));
+        Mail::to('chamal.j@coopinsu.com')->send(new SendMail($data));
         return back()->with('success', 'THANKS FOR CONTACTING US!');
     }
 }
