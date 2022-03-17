@@ -100,9 +100,8 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="" data-aos="fade-left" data-aos-delay="100">
-                        <form action="carrers" method="POST">
+                        <form method="post" action="{{ url('careers/send') }}">
                             @csrf
-
                             <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Name"
                                 required><br>
                             <input type="email" name="email" class="form-control" id="exampleInputEmail1"

@@ -45,9 +45,9 @@ return [
             'auth_mode' => null,
             'stream' => [
                 'ssl' => [
-                    'allow_self_signed' => true,
                     'verify_peer' => false,
                     'verify_peer_name' => false,
+                    'allow_self_signed' => true,
                 ],
             ],
         ],

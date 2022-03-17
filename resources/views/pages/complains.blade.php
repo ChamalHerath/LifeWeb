@@ -1,6 +1,6 @@
 @extends('pages.layout')
 
-@section('title', 'Customer Complains | ')
+@section('title', 'Customer Complaint | ')
 
 @section('content')
 
@@ -8,7 +8,7 @@
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Customer Complains</h2>
+                <h2>Customer Complaint</h2>
             </div>
         </div>
     </section>
@@ -17,7 +17,7 @@
     <section id="about" class="">
         <div class="container">
             <div class="section-header">
-                <h2>Customer Complains</h2>
+                <h2>Customer Complaint</h2>
             </div>
             <div class="row">
                 <div class="form">
@@ -26,8 +26,8 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <div class="row">
-                                    <label style="font-weight: 600" class="mb-2" for="exampleInputName">What's
-                                        Your Name?</label>
+                                    <label style="font-weight: 600" class="mb-2" for="exampleInputName">Your
+                                        Name</label>
                                     <div class="col-md-3">
                                         <select class="form-select form-select-md" aria-label=".form-select-sm example">
                                             <option selected>Select</option>
@@ -43,8 +43,8 @@
                                 </div>
                             </div>
                             <div class="form-group col-md-6 mt-3 mt-md-0">
-                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">What's Your
-                                    Email?</label>
+                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">Your
+                                    Email</label>
                                 <input type="email" class="form-control" name="email" id="email"
                                     placeholder="you@ymail.com" required>
                             </div>
@@ -52,18 +52,20 @@
 
                         <div class="row">
                             <div class="form-group mt-4 col-md-6">
-                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">What's Your
-                                    Complaint About?</label>
+                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">Your
+                                    Complaint About</label>
                                 <select class="form-select form-select-md" aria-label=".form-select-sm example">
                                     <option selected>Please Select</option>
-                                    <option value="1">Mr.</option>
-                                    <option value="2">Mrs.</option>
-                                    <option value="3">Rev.</option>
+                                    <option value="1">Our Service</option>
+                                    <option value="2">Our Products</option>
+                                    <option value="3">Our People</option>
+                                    <option value="3">Our Process</option>
+                                    <option value="3">Other ...</option>
                                 </select>
                             </div>
                             <div class="form-group mt-4 col-md-6">
-                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">What's Your
-                                    Policy Number?</label>
+                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">Your
+                                    Policy Number</label>
                                 <input type="text" class="form-control" name="subject" id="subject"
                                     placeholder="Policy No." required>
                             </div>
@@ -71,22 +73,22 @@
 
                         <div class="row">
                             <div class="form-group col-md-6 mt-4">
-                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">What's Your
-                                    Phone Number?</label>
+                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">Your
+                                    Phone Number</label>
                                 <input type="email" class="form-control" name="email" id="email" placeholder="0xxxxxxxxx"
                                     required>
                             </div>
                             <div class="form-group mt-4 col-md-6">
-                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">What's Your
-                                    NIC?</label>
+                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">Your
+                                    NIC</label>
                                 <input type="text" class="form-control" name="subject" id="subject"
                                     placeholder="0000000000V" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group mt-4 col-md-6">
-                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">How should we
-                                    Contact you?</label><br>
+                                <label style="font-weight: 600" class="mb-2" for="exampleInputName">How Should We
+                                    Contact you ?</label><br>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                     <label class="form-check-label" for="inlineCheckbox1">PHONE</label>

@@ -2,90 +2,36 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\CarrerMail;
+use App\Mail\SendMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class CareerController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    function index()
     {
-        //
+        return view('contact');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    function send(Request $request)
     {
-        //
-    }
+        $this->validate($request, [
+            'name'     =>  'required',
+            'email'  =>  'required|email',
+            'tel'   =>  'required|max:10',
+            'subject' => 'required|max:100',
+            'message' =>  'required'
+        ]);
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        $to = 'chamal.j@coopinsu.com';
-        // $to = 'careers@coopinsu.com';
+        $data = array(
+            'name'      =>  $request->name,
+            'email' => $request->email,
+            'tel' => $request->tel,
+            'subject' => $request->subject,
+            'message'   =>   $request->message
+        );
 
-        $from = $request->email;
-        $subject = $request->subject;
-        Mail::to($to)->send(new CarrerMail($request->cv));
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        Mail::to('chamal.j@coopinsu.com')->send(new SendMail($data));
+        return back()->with('success', 'THANKS FOR CONTACTING US! WE WILL CONTACT YOU SOON...');
     }
 }

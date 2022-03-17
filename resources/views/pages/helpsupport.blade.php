@@ -25,11 +25,10 @@
             </div>
             <div class="row">
                 <div class="text-center col-lg-6 col-md-6 col-sm-12">
-                    <a href="/complains"><button class="btn btn-success">Customer Complains</button></a>
+                    <a href="/complains"><button class="btn btn-success">Customer Complaints</button></a>
                 </div>
                 <div class="text-center col-lg-6 col-md-6 col-sm-12">
-                    <a href="/procedure"><button class="btn btn-success">CoopLife Customer Complain Handling
-                            Procedure</button></a>
+                    <a href="/procedure"><button class="btn btn-success">How to Lodge a Complaint</button></a>
                 </div>
             </div>
         </div>

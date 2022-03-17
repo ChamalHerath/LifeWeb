@@ -62,10 +62,6 @@ Route::view('/users', 'pages.login.logcategories');
 // Route::get('/email', [App\Http\Controllers\EmailController::class, 'create']);
 // Route::post('/email', [App\Http\Controllers\EmailController::class, 'sendEmail'])->name('send.email');
 
-//Carrers
-Route::view('/careers', 'pages.careers');
-Route::post('/carrers', [CareerController::class, 'store']);
-
 
 // Portal
 // Route::view('/customer', 'pages.login.customer');
@@ -91,3 +87,9 @@ Route::get('/logout', [CustomerController::class, 'logout']);
 Route::get('/contact', [SendEmailController::class, 'index']);
 
 Route::post('/contact/send', [SendEmailController::class, 'send']);
+
+
+// Careers
+Route::get('/careers', [CareerController::class, 'index']);
+
+Route::post('/careers/send', [CareerController::class, 'send']);

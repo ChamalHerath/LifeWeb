@@ -28,6 +28,6 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->from('payments@coopinsu.com')->subject('New Customer Enquiry')->view('dynamic_email_template')->with('data', $this->data);
+        return $this->from('cooplifeinfo@gmail.com')->subject('New Customer Enquiry')->view('dynamic_email_template')->with('data', $this->data);
     }
 }
