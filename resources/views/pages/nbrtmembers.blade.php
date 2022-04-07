@@ -44,30 +44,21 @@
                             <h4>Mr. Thevarasa Sinthujan</h4>
                             <span style="color: black; text-transform: uppercase;">Chunnakam Branch</span><br>
                             <p>Mr. T. Sinthujan, was the <b style="color: blue;">First</b> Financial Advisor to be
-                                successful in attaining the MDRT
-                                status from
-                                COOPLIFE Insurance in 2020 as well as for the company history.
-                                He was able to attain this premier status consecutively for the year 2021 as well.
-
-                                He obtained the membership based on the standards for excellence made during the year 2020
-                                and 2021
-                                by producing first and first year premium requirement in life insurance.
-
-                                Mr. Sinthujan joined with COOPLIFE on 1st of September 2016 and since then he represents our
+                                successful in attaining the MDRT status in the history of COOPLIFE Insurance and also the
+                                first to reach the said goal during the year 2021. Concurrently, by surpassing the
+                                standards, he was able attain the COT status in 2021, and once again he became the first
+                                Court of the Table winner produced from COOPLIFE Insurance since its inception. In fact, he
+                                is able to obtain the membership based on the standards for excellence made during the year
+                                2020 and 2021 by producing first and first year premium requirements in life insurance.
+                                <br>Mr. Sinthujan joined with COOPLIFE on 1st of September 2016 and since then he represents our
                                 company’s Jaffna branch and then moved to Chunnakam branch with its inception. Both are
-                                operating on
-                                its peak at the moment, and as an accreditation for his unbeatable momentum, the company
-                                offered him
-                                to serve as a Asst. Personal Financial Manager, which he is the first individual to be
-                                bestowed with
-                                it.
-
-                                Apart from being an excellent in Life insurance, he too, had been an outstanding Athletic at
-                                national level and a tremendous cricketer played for district as well as provincial level
-                                during his
-                                school days, and eventually all these made him as a distinguished past pupil of his college
-                                and also
-                                most sought after personality for the company.
+                                operating on its peak at the moment, and as an accreditation for his unbeatable momentum,
+                                the company offered him to serve as a Asst. Personal Financial Manager, which he is the
+                                first individual to be bestowed with it. Apart from being an excellent in Life insurance, he
+                                too, had been an outstanding Athletic at national level and a tremendous cricketer played
+                                for district as well as provincial level during his school days, and eventually all these
+                                made him as a distinguished past pupil of his college and also most sought after personality
+                                for the company.
                             </p>
                         </div>
                     </div>

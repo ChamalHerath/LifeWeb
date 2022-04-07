@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\SendMail;
+use App\Mail\SendCareer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -10,7 +10,7 @@ class CareerController extends Controller
 {
     function index()
     {
-        return view('contact');
+        return view('pages.careers');
     }
 
     function send(Request $request)
@@ -31,7 +31,7 @@ class CareerController extends Controller
             'message'   =>   $request->message
         );
 
-        Mail::to('chamal.j@coopinsu.com')->send(new SendMail($data));
+        Mail::to('chamal.j@coopinsu.com')->send(new SendCareer($data));
         return back()->with('success', 'THANKS FOR CONTACTING US! WE WILL CONTACT YOU SOON...');
     }
 }

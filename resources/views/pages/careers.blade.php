@@ -99,6 +99,20 @@
 
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                    @if ($message = Session::get('success'))
+                        <div class="alert alert-success alert-block">
+                            <strong>{{ $message }}</strong>
+                        </div>
+                    @endif
                     <div class="" data-aos="fade-left" data-aos-delay="100">
                         <form method="post" action="{{ url('careers/send') }}">
                             @csrf
@@ -110,10 +124,11 @@
                                 placeholder="Phone Number" required><br>
                             <input type="text" name="subject" class="form-control" id="exampleSubject"
                                 placeholder="Subject" required><br>
-                            <textarea class="form-control" name="description" placeholder="Description"
-                                id="exampleDescription" cols="65" rows="7"></textarea><br><label for="myfile"><i
-                                    class="fa fa-paperclip" aria-hidden="true"></i> Upload your CV :</label>
-                            <input type="file" id="cv" name="cv" required><br><br>
+                            <textarea class="form-control" name="message" placeholder="Message" id="exampleMessage"
+                                cols="65" rows="7"></textarea><br>
+                            <p style="color: red">* Please send your CV via <a href="">info.life@coopinsu.com</a></p>
+                            {{-- <label for="myfile"><i class="fa fa-paperclip" aria-hidden="true"></i> Upload your CV :</label>
+                            <input type="file" id="cv" name="cv" required><br><br> --}}
                             <button type="submit" class="btn-read-more">Submit</button>
                         </form>
                     </div>
