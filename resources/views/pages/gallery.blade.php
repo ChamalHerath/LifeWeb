@@ -17,64 +17,51 @@
         </div>
     </section>
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="">
-        <div class="container">
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery">
+
+        <div class="container pb-0 mb-0">
             <div class="section-header">
                 <h2>Gallery</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-4"><img id="myImg" src="assets/img/gallery/1.jpg" style="width:100%;max-width:300px">
-
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <img style="width:100%;max-width:400px" class="modal-content" id="img01">
-                        <div id="caption"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/2.jpg" alt="" srcset=""></div>
-
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/3.jpg" alt="" srcset=""></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/4.jpg" alt="" srcset=""></div>
-                        
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/5.jpg" alt="" srcset=""></div>
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/6.jpg" alt="" srcset=""></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/7.jpg" alt="" srcset=""></div>
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/8.jpg" alt="" srcset=""></div>
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/9.jpg" alt="" srcset=""></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/10.jpeg" alt="" srcset=""></div>
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/11.jpeg" alt="" srcset=""></div>
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/12.jpeg" alt="" srcset=""></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/13.jpeg" alt="" srcset=""></div>
-                <div class="col-lg-4"><img style="display: block; height: 80%; width: 100%; object-fit: cover;"
-                        src="assets/img/gallery/14.jpg" alt="" srcset=""></div>
-                <div class="col-lg-4"></div>
-            </div>
         </div>
-    </section><br>
-    <!-- End About Section -->
+
+        <div class="gallery-slider swiper-container mt-0 pt-0">
+            <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><a href="assets/img/gallery/1.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/2.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/2.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/3.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/3.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/4.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/5.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/5.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/6.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/6.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/7.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/7.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/8.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/8.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/9.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/9.jpg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/10.jpeg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/10.jpeg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/11.jpeg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/11.jpeg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/12.jpeg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/12.jpeg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/13.jpeg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/13.jpeg" class="img-fluid" alt=""></a></div>
+                <div class="swiper-slide"><a href="assets/img/gallery/14.jpg" class="gallery-lightbox"><img
+                            src="assets/img/gallery/14.jpg" class="img-fluid" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+    <!-- End Gallery Section -->
 
 
 @endsection
