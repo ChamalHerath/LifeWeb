@@ -39,7 +39,20 @@
                         <strong>Help &
                             Support Section.</strong>
                     </li>
-                </ol>
+                </ol><br><br><br><br>
+                <div style="text-align: center">
+                    <a href="Sinhala.pdf"
+                        style="text-align: left; background-color: #91aa37; margin: 5px 0; padding: 5px 5px; color: white"
+                        class="btn" download="">පාරිභෝගික පැමිණිලි හැසිරවීමේ ක්‍රියාපටිපාටිය බාගත
+                        කරන්න</a><br>
+                    <a href="Tamil.pdf"
+                        style="text-align: left; background-color: #91aa37; margin: 5px 0; padding: 5px 5px; color: white"
+                        class="btn" download="">வாடிக்கையாளர் முறைப்பாடுகளை கையாளும் நடைமுறையினை
+                        பதிவிறக்கவும்</a><br>
+                    <a href="English.pdf"
+                        style="text-align: left; background-color: #91aa37; margin: 5px 0; padding: 5px 5px; color: white"
+                        class="btn" download="">Download Complaints Handling Procedure</a>
+                </div>
             </div>
         </div>
     </section><br><br><br><br><br><br>
