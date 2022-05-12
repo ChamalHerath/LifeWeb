@@ -25,7 +25,7 @@
             </div>
             <div class="row">
                 <div class="text-center col-lg-6 col-md-6 col-sm-12">
-                    <a href="/complains"><button class="btn btn-success">Customer Complaints</button></a>
+                    <a href="/complaints"><button class="btn btn-success">Customer Complaints</button></a>
                 </div>
                 <div class="text-center col-lg-6 col-md-6 col-sm-12">
                     <a href="/procedure"><button class="btn btn-success">How to Lodge a Complaint</button></a>

@@ -25,7 +25,7 @@
                 <div class="alert alert-danger">
                     <ul>
                         @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
+                            <li style="text-align: center; list-style: none;">{{ $error }}</li>
                         @endforeach
                     </ul>
                 </div>
@@ -38,8 +38,7 @@
 
             <div class="row">
                 <div class="form">
-                    {{-- <form enctype="multipart/form-data" method="POST" action="{{ route('complaints.save') }}"> --}}
-                    <form enctype="multipart/form-data" method="POST" action="">
+                    <form method="POST" action="{{ route('complains.save') }}">
                         @csrf
                         <div class="row">
                             <div class="form-group col-md-6">
@@ -50,14 +49,13 @@
                                         <select class="form-select form-select-md" name="title"
                                             aria-label=".form-select-sm example">
                                             <option selected disabled selected>Title</option>
-                                            <option value="1">Mr.</option>
-                                            <option value="2">Mrs.</option>
-                                            <option value="3">Rev.</option>
+                                            <option value="Mr">Mr.</option>
+                                            <option value="Mrs">Mrs.</option>
+                                            <option value="Rev">Rev.</option>
                                         </select>
                                     </div>
                                     <div class="col-md-9">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name"
-                                            required>
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name">
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +64,7 @@
                                 <label style="font-weight: 600" class="mb-2" for="exampleInputEmail">Your
                                     Email</label>
                                 <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="you@ymail.com" required>
+                                    placeholder="you@ymail.com">
                             </div>
                         </div>
 
@@ -89,7 +87,7 @@
                                 <label style="font-weight: 600" class="mb-2" for="exampleInputPolicyName">Your
                                     Policy Number</label>
                                 <input type="text" class="form-control" name="policyno" id="policyno"
-                                    placeholder="Policy No." required>
+                                    placeholder="Policy No.">
                             </div>
 
                         </div>
@@ -99,14 +97,13 @@
                                 <label style="font-weight: 600" class="mb-2" for="exampleInputPhoneNo">Your
                                     Phone Number</label>
                                 <input type="number" class="form-control" name="phonenumber" id="phonenumber"
-                                    placeholder="0xxxxxxxxx" required>
+                                    placeholder="0xxxxxxxxx">
                             </div>
 
                             <div class="form-group mt-4 col-md-6">
                                 <label style="font-weight: 600" class="mb-2" for="exampleInputNIC">Your
                                     NIC</label>
-                                <input type="text" class="form-control" name="nic" id="nic" placeholder="0000000000V"
-                                    required>
+                                <input type="text" class="form-control" name="nic" id="nic" placeholder="0000000000V">
                             </div>
 
                         </div>

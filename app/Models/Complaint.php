@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Complaint extends Model
 {
-    use HasFactory;
+    public $fillable = ['title', 'name', 'email', 'email', 'subject', 'policyno', 'phonenumber', 'nic', 'contactmethod', 'solutiontype', 'message'];
 }

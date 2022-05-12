@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CareerController;
+use App\Http\Controllers\ComplaintController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\SendEmailController;
 
@@ -52,8 +52,6 @@ Route::view('/documents', 'pages.document');
 
 Route::view('/pay', 'pages.easypay');
 
-Route::view('/complains', 'pages.complains');
-
 Route::view('/procedure', 'pages.complainprocedure');
 
 Route::view('/users', 'pages.login.logcategories');
@@ -93,3 +91,8 @@ Route::post('/contact/send', [SendEmailController::class, 'send']);
 Route::get('/careers', [CareerController::class, 'index']);
 
 Route::post('/careers/send', [CareerController::class, 'send']);
+
+//Complaints
+Route::view('/complaints', 'pages.complaints');
+Route::get('add',[ComplaintController::class, 'index']);
+Route::post('save' ,[ComplaintController::class, 'store'])->name('complains.save');

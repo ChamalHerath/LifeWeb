@@ -28,6 +28,6 @@ class SendComplaint extends Mailable
      */
     public function build()
     {
-        return $this->from('cooplifeinfo@gmail.com')->subject('Customer Complaint')->view('dynamic_email_template_complaint')->with('data', $this->data);
+        return $this->from('payments@coopinsu.com')->subject('CUSTOMER COMPLAINTS')->view('mail')->with('data', $this->data);
     }
 }
