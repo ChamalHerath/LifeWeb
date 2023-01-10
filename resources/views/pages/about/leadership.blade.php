@@ -165,7 +165,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            {{-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up" data-aos-delay="300">
                     <div class="member-img">
                         <img src="assets/img/team/4.jpg" class="img" alt="">
@@ -181,7 +181,7 @@
                         <span>Accountant</span>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up">
@@ -305,6 +305,78 @@
                     <div class="member-info">
                         <h4>Mr. S. A. G. A. Sampath</h4>
                         <span>Regional Manger - Southern</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="assets/img/team/17.jpg" class="img" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Mr. K. Kanathipan</h4>
+                        <span>Asst. Regional Sales Manger - Chunnakam</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="assets/img/team/18.jpg" class="img" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Mr. R. M. A. B. Madawala</h4>
+                        <span>Regional Manger - East</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="assets/img/team/16.jpg" class="img" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Mr. A. Gongalegoda</h4>
+                        <span>Asst. Regional Sales Manger - Kandy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="assets/img/team/19.jpg" class="img" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Mr. W. M. A. K. Wijesundara</h4>
+                        <span>Asst. Regional Sales Manger - Nikaweratiya</span>
                     </div>
                 </div>
             </div>
